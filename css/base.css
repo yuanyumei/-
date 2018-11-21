@@ -1,0 +1,248 @@
+/*导航栏*/
+.nav{
+    height:86px;
+}
+.logo{
+    position:relative;
+    width: 360px;
+    height:86px;
+    float: left;
+}
+.con_logo{
+    position:absolute;
+    margin: 0;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.navitem{
+    float: right;
+    text-align: center;
+    height: 86px;
+    width: 1543px;
+}
+.navitem ul li{
+    height: 48px;
+    width:112px;
+    float: left;
+    margin: 19px 54px ;
+    line-height: 48px;
+}
+ul li.shouye{
+    background-color: #0254fe;
+    border-radius:24px ;
+}
+.shouye a{
+    color: white;
+}
+/*banner*/
+.banner{
+    height: 400px;
+    background-color:#95a7ff;
+}
+/*公司动态*/
+.dynamic{
+    height: 180px;
+    font-size: 30px;
+    text-align: center;
+    padding: 66px 0;
+}
+.dynamic ul{
+    height: 100px;
+    margin:47px 200px 0px;
+}
+.dynamic ul li{
+    width: 650px;
+    height: 100px;
+    border:1px solid #EEEEEE;
+    display: inline-block;
+}
+.dynamic ul li.dong_left{
+    float: left;
+}
+.dynamic ul li.dong_right{
+    float: right;
+}
+.dynamic ul li .dong_limian,.dong_lilan{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    float: left;
+}
+.dynamic ul li .dong_limian{
+    background-color: #f7f7f7;
+    position: relative;
+}
+.dynamic ul li .dong_lilan{
+    background-color: #0254fe;
+    position: relative;
+}
+.dynamic ul li .xiang{
+    margin: auto;
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.d_biaoti{
+    display: inline-block;
+    font-size: 18px;
+    width:550px;
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+}
+/*我们的服务*/
+.sevice{
+    height: 200px;
+    margin-bottom: 20px;
+}
+p{
+    font-size: 30px;
+    text-align: center;
+}
+.sevice ul{
+    text-align: center;
+    margin: 30px  170px  0;
+    height: 124px;
+}
+.sevice ul li {
+    /*display: inline-block;(底部对齐)*/
+    float: left;
+    width: 240px;
+    margin: 0 140px 0;
+}
+.sevice_biao{
+    font-size: 18px;
+    margin: 0 0 10px;
+    color: #333333;
+}
+.sevice_duan{
+    font-size: 14px;
+    line-height: 30px;
+    color: #666666;
+}
+
+/*了解我们*/
+.understand{
+    height: 470px;
+    width: 1920px;
+}
+.understand ul li{
+    float: left;
+}
+.understand ul{
+    margin: 30px 0 0;
+    /*letter-spacing: -8px;消除<ul>的字符间隔*/
+}
+/*合作伙伴*/
+.partner{
+    margin: 60px 0 20px ;
+}
+.partner ul{
+    height:196px;
+    width: 1920px;
+    margin: 40px 250px 100px;
+}
+.partner ul li{
+    height:196px;
+    width:196px;
+    margin: 0 79.5px 0;
+    background-color: #95a7ff;
+    float: left;
+}
+.partner_1{
+    position: relative;
+}
+.partner_11{
+    position: absolute;
+    top:50%;
+    left: -30%;
+}
+.partner_2{
+    position: relative;
+}
+.partner_22{
+    position: absolute;
+    top:50%;
+    right: -30%;
+}
+/*底部任务*/
+.di {
+    width: 1920px;
+    height: 330px;
+    background-image: url("../images/dibu.png");
+}
+/*.di{*/
+     /*height: 330px;*/
+     /*width: 1920px;*/
+ /*}*/
+/*.di img{*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*display: block;*/
+/*}*/
+/*白色logo*/
+.white_logo{
+    width: 70px;
+    height: 240px;
+    float: left;
+    margin-left: 300px;
+    padding-top: 80px;
+    text-align: center;
+    color: white;
+}
+/*导航标题*/
+.dibu_daohan{
+    /*background-color: #0254fe;*/
+    width: 1112px;
+    height: 240px;
+    float: left;
+    padding-top: 80px;
+
+}
+.dibu_daohan li {
+    width: 222.4px;
+    height: 240px;
+    float: left;
+}
+.dibu_daohan li p{
+    font-size: 16px;
+    color: #A6A7A9;
+    height: 20px;
+}
+.dibu_daohan li .dao_hanglan{
+    font-size: 14px;
+    color: #FF8D8D8D;
+    height: 200px;
+    padding-top: 20px;
+    padding-left: 80px;
+}
+.dibu_daohan li .dao_hanglan .dao_han li{
+    float: left;
+    font-size: 14px;
+    height: 30px;
+    text-align: left;
+
+}
+.dibu_daohan li .dao_han{
+    height: 200px;
+}
+.dibu_daohan li .dao_han li{
+    font-size: 14px;
+    color: #8D8D8D;
+    height: 220px;
+}
+/*微信公众号*/
+.erweima{
+    width: 138px;
+    height: 240px;
+    float: left;
+    margin-right: 300px;
+    padding-top: 80px;
+    color: white;
+    text-align: center;
+}
+.erweima .tupian{
+    padding-top: 20px;
+}
